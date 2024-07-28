@@ -1,0 +1,24 @@
+.admin-navbar {
+    background-color: #1b1f47; /* Set background color */
+    padding: 10px; /* Add padding */
+}
+
+.admin-navbar ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+}
+
+.admin-navbar ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add margin between items */
+}
+
+.admin-navbar ul li a {
+    color: #fff; /* Set text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.admin-navbar ul li a.active {
+    color: orange; /* Change text color for active link */
+}

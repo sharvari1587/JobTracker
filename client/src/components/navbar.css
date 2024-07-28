@@ -1,0 +1,66 @@
+/* navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav_btn {
+    display: flex;
+    gap: 20px;
+}
+
+.nav_btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+/* Add this to your existing CSS or create a new CSS file */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div {
+    flex: 1;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.NavLinks
+{
+    padding: 10px;
+}
+

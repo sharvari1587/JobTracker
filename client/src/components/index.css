@@ -1,0 +1,176 @@
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Add this to your CSS file or style section */
+
+.dashboard {
+  display: flex;
+  height: 100vh; /* Set height as needed */
+  justify-content: center;
+}
+
+.main-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.user-details {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.user-details p {
+  margin: 0;
+  margin-bottom: 10px;
+  
+}
+
+/* You can customize these styles based on your design requirements */
+/* addjob */
+.add-job-container {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.label-addjob
+{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/* viewjobs.css */
+
+.view-jobs-container {
+  max-width: 83%;
+  margin: 0 auto;
+}
+
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-item {
+  border: 1px solid #565353;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+}
+
+.job-item h2 {
+  margin-bottom: 10px;
+}
+
+.apply-button-div
+{
+  text-align: center;
+}
+
+.apply-button {
+  width: 170px;
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #214f6d;
+}
+
+
+
+/* ---------Admin Jobs------------------- */
+/* index.css */
+
+.view-jobs-container {
+  margin-top: 20px;
+}
+
+.jobs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px;
+  padding: 10px;
+}
+
+.jobs-table th,
+.jobs-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.jobs-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.jobs-table tr:hover {
+  background-color: #f2f2f2;
+}
+
+.jobs-table button
+{
+  margin-right: 3px;
+}
+
+
